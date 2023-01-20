@@ -32,6 +32,13 @@
             {
                 Console.WriteLine(num);
             }
+            set.RemoveWhere(i => i % 2 == 0);
+            Console.WriteLine("Afer removing all even numbers: ");
+            foreach (var num in set)
+            {
+                Console.WriteLine(num);
+            }
+
         }
     }
 }
