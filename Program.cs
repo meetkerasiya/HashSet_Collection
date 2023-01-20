@@ -7,5 +7,6 @@ class MyClass
         var uc = new UnionClass();
         uc.UnionHashset();
         var ic=new IntersectionClass();
+        var ec=new ExceptClass();
     }
 }
